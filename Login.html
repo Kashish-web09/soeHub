@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Shoehub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <a class="logo" href="home.html">
+        <h3 class="logoname">Shoe<span>Hub</span></h3>
+    </a>
+</header>
+<section class="auth-container">
+    <div class="auth-box">
+        <h1>Welcome Back</h1>
+        <p class="auth-sub">Login to continue shopping</p>
+    
+
+   <form id="loginForm">
+<label for="login-username">Username</label>
+<input type="text" id="login-username" placeholder="Enter username" required>
+<p id="userError"></p>
+<p id="typing"></p>
+
+<div class="password-box">
+<label for="login-password">Password</label>
+<input type="password" id="login-password" placeholder="Enter password" required>
+<button type="button" id="toggle-password" aria-label="Show Password">
+<i class="fa-solid fa-eye" id="toggle-eye"></i>
+</button>
+</div>
+<p id="passError"></p>
+
+
+
+<div class="auth-extra">
+<a href="forgot-password.html" id="forgot-pass">Forgot password?</a>
+</div>
+
+<button type="submit" class="auth-btn">Login</button>
+</form>
+<p class="switch-auth">Dont's have an account? <a href="Registeration.html">Register</a></p>
+</div>
+</section>
+<footer class="simple-footer">
+<p>© 2025 ShoeHub. All Rights Reserved.</p>
+</footer>
+
+<script src="login.js"></script>
+</body>
+</html>

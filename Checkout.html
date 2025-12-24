@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="left-header">
+    <a class="logo" href="home.html">
+        <h3 class="logoname">Shoe<span>Hub</span></h3>
+    </a>    
+        </div>
+        <div class="right-header">
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user"></i>
+        </div>
+ </header>
+    <h2 class="payment-heading">Proceed to Pay</h2>
+    <div class="bill-container">
+    <div class="bill-details">
+        <h3 class="bill-heading">Billing Details</h3>
+        <hr>
+        <form action="#" method="post" id="bill-form">
+            <label for="name">First Name: </label>
+            <input type="text" id="name" placeholder="Enter your first name...">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Enter your last name...">
+            <label for="address">Street Address: </label>
+            <input type="text" id="address" placeholder="Street address" required>
+            <label for="town">Town/City: </label>
+<input type="text" id="town" placeholder="Town/City" required>
+<label for="number">Receiver's Number: </label>
+<input type="tel" id="number" placeholder="+(1234) 567 89" required>
+<label for="payment-method">Payment Method: </label>
+<select id="payMethod">
+    <option value="cash">COD</option>
+    <option value="upi">UPI</option>
+    <option value="card">Credit/Debit Card</option>
+    <option value="EMI">EMI</option>
+</select>
+<button type="submit" id="bill-btn">Proceed to Payment</button>
+        </form>
+    </div>
+    </div>
+    <footer class="simple-footer">
+<p>© 2025 ShoeHub. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

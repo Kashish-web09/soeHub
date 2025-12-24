@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <a class="logo" href="home.html">
+        <h3 class="logoname">Shoe<span>Hub</span></h3>
+    </a>
+</header>
+
+<div id="container">
+
+    <aside class="filters">
+        <h3>Filters</h3>
+
+        <h4>Brand</h4>
+        <ul>
+            <li><a id="nikebrand" href="products.html?brand=nike">Nike</a></li>
+            <li><a href="products.html?brand=sketchers">Sketchers</a></li>
+            <li><a href="products.html?brand=puma">Puma</a></li>
+            <li><a href="products.html?brand=crocs">Crocs</a></li>
+        </ul>
+
+        <h4>Colors</h4>
+        <div class="color-option">
+            <div style="background: red;"></div>
+                        <div style="background: whitesmoke;"></div>
+            <div style="background: black;"></div>
+            <div style="background: navy;"></div>
+            <div style="background: olive;"></div>
+        </div>
+
+        <h4>Price</h4>
+      <div class="price-options">
+    <label><input type="checkbox" value="0-1000"> Under ₹1000</label>
+    <label><input type="checkbox" value="1000-3000"> ₹1000 – ₹3000</label>
+    <label><input type="checkbox" value="3000-5000"> ₹3000 – ₹5000</label>
+    <label><input type="checkbox" value="5000-10000"> Above ₹5000</label>
+</div>
+
+    </aside>
+
+    <section class="product-list">
+        <h2>Product List</h2>
+
+        <div id="product-container">
+           
+        </div>
+    </section>
+
+</div>
+
+<script src="shoehub.js"></script>
+
+</body>
+</html>

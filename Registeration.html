@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <a class="logo" href="home.html">
+        <h3 class="logoname">Shoe<span>Hub</span></h3>
+    </a>
+</header>
+<section class="auth-container">
+<div class="auth-box">
+<h1>Create Account</h1>
+
+
+<form id="registerForm">
+<label for="fname">First Name</label>
+<input type="text" id="fname" required>
+<p id="fnameError"></p>
+
+
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" required>
+
+<p id="lnameError"></p>
+
+<label for="email">Email</label>
+<input type="email" id="email" required>
+<p id="emailError"></p>
+
+<label for="reg-username">Username</label>
+<input type="text" id="reg-username" required>
+<p id="userError"></p>
+
+
+<label for="reg-password">Password</label>
+<input type="password" id="reg-password" required>
+<p id="passError"></p>
+
+
+<label for="confirm-password">Confirm Password</label>
+<input type="password" id="confirm-password" required>
+
+
+<button type="submit" class="auth-btn" id="reg-btn">Register</button>
+</form>
+<p class="switch-auth">Already have an account? <a href="Login.html">Login</a></p>
+</div>
+</section>
+<footer class="simple-footer">
+<p>© 2025 ShoeHub. All Rights Reserved.</p>
+</footer>
+    <script src="registration.js"></script>
+</body>
+</html>
